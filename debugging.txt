@@ -1,0 +1,14 @@
+
+# for windows get ldap module here: http://www.lfd.uci.edu/~gohlke/pythonlibs/#python-ldap
+# python_ldap‑2.4.21‑cp27‑none‑win_amd64.whl
+
+## debugging in ipython: https://github.com/gotcha/ipdb
+
+# debug in in ipython repl with:  run -d 'test_ldap2.py' or %run ...
+# debug it in ipython repl with: ipdb.runcall(run_filter, Server, DN, Secret, un)
+
+# debug from cli with:
+# easy_install ipdb
+# python -m ipdb test_ldap2.py
+
+# “import pdb” or “import ipdb as pdb“, then “pdb.set_trace() where you want to have it break in advance“ # b (make breakpoint on line # while in the debugger already) # n (next) # ENTER (repeat previous) # q (quit) # p <variable> (print value) # c (continue) # l (list where you are) # s (step into subroutine) # r (continue till the end of the subroutine) # ! <python command>
